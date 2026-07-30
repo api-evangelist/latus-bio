@@ -1,23 +1,79 @@
 aid: latus-bio
 name: Latus Bio
-description: Latus Bio is a company surfaced as a portfolio company of 8vc, dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Latus Bio is a clinical-stage gene therapy company engineering novel
+  adeno-associated virus (AAV) capsids to deliver genetic medicines to precise cell
+  types in the central nervous system and peripheral tissues. The company screens tens
+  of millions of novel capsid variants to build a proprietary database of tissue-targeting
+  "delivery zip codes," pairing engineered capsids with optimized routes of administration
+  so therapeutics reach the intended tissue at a fraction of conventional doses and
+  with minimal off-tissue biodistribution. Its lead programs are LTS-201 for Huntington''s
+  disease (AAV.DB-3 capsid) and LTS-101 for CLN2 disease, spanning CNS and ocular
+  delivery (AAV.Ep+ capsid). Latus Bio operates offices and laboratories in Philadelphia,
+  Pennsylvania and in Boston''s Seaport district, and is backed by DCVC Bio, 8VC,
+  BioAdvance, Samsung Venture Investment, and KDB. Latus Bio is catalogued in the API
+  Evangelist network as a life-sciences company; it publishes no public developer
+  platform, API, or SDK surface at this time.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6627bc4f363f9254dfeb7cd5/6811bb94bfa33f80970b4e88_home-img.png
 url: https://raw.githubusercontent.com/api-evangelist/latus-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 8vc
 - dcvc
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Gene Therapy
+- Life Sciences
+- Genomics
+- Neuroscience
+- Drug Development
+- Healthcare
 apis: []
+common:
+- type: Website
+  url: https://www.latusbio.com/
+- type: About
+  url: https://www.latusbio.com/about-us
+- type: Technology
+  url: https://www.latusbio.com/our-approach
+- type: Products
+  url: https://www.latusbio.com/our-pipeline
+- type: News
+  url: https://www.latusbio.com/news-publications
+- type: ContactUs
+  url: https://www.latusbio.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.latusbio.com/privacy-policy
+- type: TermsOfService
+  url: https://www.latusbio.com/terms-of-use
+- type: LLMsTxt
+  url: llms/latus-bio-llms.txt
+- type: DomainSecurity
+  url: security/latus-bio-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
