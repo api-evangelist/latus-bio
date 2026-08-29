@@ -13,6 +13,17 @@ description: 'Latus Bio is a clinical-stage gene therapy company engineering nov
   BioAdvance, Samsung Venture Investment, and KDB. Latus Bio is catalogued in the API
   Evangelist network as a life-sciences company; it publishes no public developer
   platform, API, or SDK surface at this time.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
